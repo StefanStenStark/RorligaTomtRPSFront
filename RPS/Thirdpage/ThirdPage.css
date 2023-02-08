@@ -1,0 +1,29 @@
+
+
+.container{
+  max-width: 690px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+.item{
+  background-color: purple;
+  color: white;
+  border: #555555 solid 1px;
+  font-size: 1.69rem;
+  padding: 20px;
+  text-align: center;
+}
+
+#refreshB{
+  max-width: 50px;
+  max-height: 50px;
+
+}
+div{
+  text-align: center;
+}
+
