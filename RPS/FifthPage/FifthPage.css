@@ -1,0 +1,16 @@
+/*text-style on headliner 1*/
+h1 {
+  font-family: Bahnschrift;
+}
+/*text-style on headliner 2*/
+h2 {
+  font-family: Bahnschrift;
+}
+
+a:hover{
+  background-color: forestgreen;
+}
+h2:hover {
+  color: forestgreen;
+}
+
