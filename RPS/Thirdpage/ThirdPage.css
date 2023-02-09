@@ -2,7 +2,7 @@
 
 .container{
   max-width: 690px;
-  margin: 10px auto;
+  margin: 55px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -10,7 +10,7 @@
 
 
 .item{
-  background-color: purple;
+  background-color: #4c9d72;
   color: white;
   border: #555555 solid 1px;
   font-size: 1.69rem;
