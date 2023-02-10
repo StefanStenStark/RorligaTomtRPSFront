@@ -1,16 +1,52 @@
-/*text-style on headliner 1*/
-h1 {
-  font-family: Bahnschrift;
-}
-/*text-style on headliner 2*/
-h2 {
+header{
+  font-size: 36px;
   font-family: Bahnschrift;
 }
 
-a:hover{
-  background-color: forestgreen;
+.ROCK{
+
 }
-h2:hover {
-  color: forestgreen;
+.PAPER{
+
 }
+.SCISSORS{
+
+}
+
+.flexbox-container{
+  display:flex;
+  margin: 100px;
+}
+.flex-item {
+  flex: 5 5 5em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*text-style on headline 1*!*/
+/*h1 {*/
+/*  font-family: Bahnschrift;*/
+/*}*/
+/*!*text-style for names on figures 2*!*/
+/*h2 {*/
+/*  font-family: Bahnschrift;*/
+/*}*/
+
+/*a:hover{*/
+/*  background-color: forestgreen;*/
+/*}*/
+/*h2:hover {*/
+/*  color: forestgreen;*/
+/*}*/
 
