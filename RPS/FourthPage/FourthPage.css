@@ -60,23 +60,23 @@ footer{
 
 header{
   grid-area: header;
-  background-color: #613d65;
+  background-color: #6a536c;
 }
 nav{
   grid-area: nav;
-  background-color: #8c7e42;
+  background-color: #b0aa8a;
 }
 main{
   grid-area: main;
-  background-color: #613d65;
+  background-color: #6a536c;
 }
 aside{
   grid-area: aside;
-  background-color: #8c7e42;
+  background-color: #b0aa8a;
 }
 footer{
   grid-area: footer;
-  background-color: #613d65;
+  background-color: #6a536c;
 }
 
 
