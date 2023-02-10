@@ -88,7 +88,7 @@ input{
 
 .customButton{
   letter-spacing: 1px;
-  background-color: #aba04a;
+  background-color: #b0aa8a;
   color: #4c9d72;
   border: none;
   padding: 12px 25px;
@@ -99,7 +99,7 @@ input{
 }
 .customButton:hover{
  transition: 0.3s ease-in-out;
-  background-color: #b0aa8a;
+  background-color: #f3eac7;
   border: 1px solid black;
   color: whitesmoke;
   box-shadow: 0 0 10px #2d8aa6;
