@@ -29,21 +29,21 @@ footer{
 
 header{
   grid-area: header;
-  background-color: #365d9f;
+  background-color: #caf0f8;
 }
 nav{
   grid-area: nav;
-  background-color: #637da8;
+  background-color: #eaf6f8;
 }
 main{
   grid-area: main;
-  background-color: #365d9f;
+  background-color: #caf0f8;
 }
 aside{
   grid-area: aside;
-  background-color: #637da8;
+  background-color: #eaf6f8;
 }
 footer{
   grid-area: footer;
-  background-color: #365d9f;
+  background-color: #caf0f8;
 }
