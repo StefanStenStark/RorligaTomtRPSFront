@@ -23,7 +23,8 @@ header{
 }
 
 img{
-  max-width: 30%;
+  width: 150px;
+  height: auto;
 }
 
 
