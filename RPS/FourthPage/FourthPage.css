@@ -64,7 +64,7 @@ header{
 }
 nav{
   grid-area: nav;
-  background-color: #efe8c8;
+  background-color: #726438;
 }
 main{
   grid-area: main;
@@ -72,7 +72,7 @@ main{
 }
 aside{
   grid-area: aside;
-  background-color: #efe8c8;
+  background-color: #726438;
 }
 footer{
   grid-area: footer;
