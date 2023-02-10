@@ -21,7 +21,6 @@ nav,
 main,
 aside,
 footer{
-  background-color: #555555;
   color: #4c9d72;
   border: black solid 1px;
   font-size: 1.2rem;
@@ -30,16 +29,21 @@ footer{
 
 header{
   grid-area: header;
+  background-color: #365d9f;
 }
 nav{
   grid-area: nav;
+  background-color: #637da8;
 }
 main{
   grid-area: main;
+  background-color: #365d9f;
 }
 aside{
   grid-area: aside;
+  background-color: #637da8;
 }
 footer{
   grid-area: footer;
+  background-color: #365d9f;
 }
