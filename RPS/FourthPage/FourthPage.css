@@ -86,10 +86,27 @@ input{
   text-align: center;
 }
 
-button{
-  height: 45px;
-  width: 250px;
-  border-radius: 25px;
+.customButton{
+  letter-spacing: 1px;
+  background-color: #aba04a;
+  color: #4c9d72;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+
+
 }
+.customButton:hover{
+ transition: 0.3s ease-in-out;
+  background-color: #b0aa8a;
+  border: 1px solid black;
+  color: whitesmoke;
+  box-shadow: 0 0 10px #2d8aa6;
+}
+
+
+
+
 
 
