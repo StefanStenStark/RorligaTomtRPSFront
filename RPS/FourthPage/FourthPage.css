@@ -79,4 +79,16 @@ footer{
   background-color: #6a536c;
 }
 
+input{
+  height: 45px;
+  width: 370px;
+  border-radius: 25px;
+}
+
+button{
+  height: 45px;
+  width: 250px;
+  border-radius: 25px;
+}
+
 
