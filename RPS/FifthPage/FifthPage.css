@@ -1,15 +1,15 @@
 header{
-  display: compact;
-  font-family: Bahnschrift;
+  /*display: compact;*/
+  font-family: 'DM Sans', sans-serif;
 }
 
-.ROCK{
+.rock{
 
 }
-.PAPER{
+.paper{
 
 }
-.SCISSORS{
+.scissors{
 
 }
 
@@ -19,10 +19,28 @@ header{
 }
 .flex-item {
   flex: 5 5 5em;
-
 }
-
-
+/*smoother highlight*/
+img{
+  transition: transform 0.5s;
+}
+/*mouseover highlights*/
+img:hover {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 1000px) {
+  img{
+    width: 250px;
+  }
+  .flexbox-container{
+    /*omvandlar bilderna till lodrätt*/
+    /*this one needs display:flex to work which exist in flexbox-container*/
+    flex-direction: column;
+    margin: 10px;
+    /*this one needs display:flex to work which exist in flexbox-container*/
+    align-items: center;
+  }
+}
 
 /*img{*/
 /*  width: 150px;*/
