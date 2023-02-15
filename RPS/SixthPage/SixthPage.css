@@ -1,14 +1,19 @@
 div{
   text-align: center;
 }
+
 h2{
+  margin: 20px;
   scale: 1.6;
   font-family: 'DM Sans', sans-serif;
 }
+
 h3{
+  margin: 20px 0px 20px 0px;
   scale: 2;
   font-family: 'DM Sans', sans-serif;
 }
+
 button{
   margin: 10px;
   scale: 1.6;
@@ -19,6 +24,7 @@ button{
   padding: 8px;
   border-radius: 8px;
 }
+
 button:hover{
   transition: 0.2s;
   background-color: #14e8ae;
@@ -26,16 +32,19 @@ button:hover{
   color: black;
   box-shadow: 0 0 10px #2d8aa6;
 }
+
 .flexbox-container{
   display:flex;
   /*how much space between there should be between*/
   margin: 100px;
 }
+
 .flex-item {
   flex:  10 10rem;
 }
+
 /*this will be applied when you shrink the screen to 1000px or smaller*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1700px) {
   img{
     /*the size of text and images when the screen is 1000px or smaller*/
     width: 250px;
@@ -45,9 +54,17 @@ button:hover{
     /*converts the images to portrait*/
     /*this one needs display:flex to work which exist in flexbox-container*/
     flex-direction: column;
-    margin: 10px;
+    margin: 5px;
     /*this one needs display:flex to work which exist in flexbox-container*/
     align-items: center;
+  }
+  h2{
+    scale: 1.2;
+    font-family: 'DM Sans', sans-serif;
+  }
+  h3{
+    scale: 1.2;
+    font-family: 'DM Sans', sans-serif;
   }
 }
 

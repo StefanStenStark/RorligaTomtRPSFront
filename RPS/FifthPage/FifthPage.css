@@ -1,6 +1,7 @@
-header{
+h1{
   /*text-type*/
   font-family: 'DM Sans', sans-serif;
+  font-size: 70px;
 }
 
 .rock{
@@ -31,7 +32,7 @@ img:hover {
   transform: scale(1.2);
 }
 /*this will be applied when you shrink the screen to 1000px or smaller*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1700px) {
   img{
     width: 250px;
   }
