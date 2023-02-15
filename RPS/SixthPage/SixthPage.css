@@ -1,38 +1,43 @@
-header{
-  /*text-type*/
+div{
+  text-align: center;
+}
+h2{
+  scale: 1.6;
   font-family: 'DM Sans', sans-serif;
 }
-
-.rock{
-
+h3{
+  scale: 2;
+  font-family: 'DM Sans', sans-serif;
 }
-.paper{
-
+button{
+  margin: 10px;
+  scale: 1.6;
+  font-family: 'DM Sans', sans-serif;
+  background-color: rgba(20, 99, 112, 0.62);
+  color: #000000;
+  border: #555555 solid 1px;
+  padding: 8px;
+  border-radius: 8px;
 }
-.scissors{
-
+button:hover{
+  transition: 0.2s;
+  background-color: #14e8ae;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 0 0 10px #2d8aa6;
 }
-
 .flexbox-container{
   display:flex;
   /*how much space between there should be between*/
   margin: 100px;
 }
 .flex-item {
-  flex: 5 5 5em;
-}
-img{
-  /*smoother highlight*/
-  transition: transform 0.5s;
-}
-/*mouseover highlights*/
-img:hover {
-  /*how much bigger the images should grow when they are hovered*/
-  transform: scale(1.2);
+  flex:  10 10rem;
 }
 /*this will be applied when you shrink the screen to 1000px or smaller*/
 @media screen and (max-width: 1000px) {
   img{
+    /*the size of text and images when the screen is 1000px or smaller*/
     width: 250px;
   }
   /*this will be applied when you shrink the screen to 1000px or smaller*/
@@ -40,11 +45,9 @@ img:hover {
     /*converts the images to portrait*/
     /*this one needs display:flex to work which exist in flexbox-container*/
     flex-direction: column;
-    /*how much space between there should be between*/
     margin: 10px;
     /*this one needs display:flex to work which exist in flexbox-container*/
     align-items: center;
   }
 }
-
 
