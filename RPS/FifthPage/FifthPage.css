@@ -2,17 +2,27 @@ h1{
   /*text-type*/
   font-family: 'DM Sans', sans-serif;
   font-size: 70px;
+  margin-bottom: 10%;
 }
-
-.rock{
-
+/*mouseover highlights*/
+.rock:hover {
+  /*how much bigger the images should grow when they are hovered*/
+  transform: scale(1.2);
+  /*smoother highlight when hovered*/
+  transition: transform 0.5s;
 }
-.paper{
-
+.paper:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
 }
-.scissors{
-
+.scissors:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
 }
+/*.decoration {
+  width: 100%;
+  height: 100%;
+}*/
 
 .flexbox-container{
   display:flex;
@@ -22,15 +32,7 @@ h1{
 .flex-item {
   flex: 5 5 5em;
 }
-img{
-  /*smoother highlight*/
-  transition: transform 0.5s;
-}
-/*mouseover highlights*/
-img:hover {
-  /*how much bigger the images should grow when they are hovered*/
-  transform: scale(1.2);
-}
+
 /*this will be applied when you shrink the screen to 1000px or smaller*/
 @media screen and (max-width: 1700px) {
   img{
@@ -45,6 +47,11 @@ img:hover {
     margin: 10px;
     /*this one needs display:flex to work which exist in flexbox-container*/
     align-items: center;
+  }
+  h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    margin-bottom: 70px;
   }
 }
 
