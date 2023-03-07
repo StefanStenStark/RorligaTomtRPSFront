@@ -2,7 +2,7 @@
 const url = "http://localhost:8080/api/rps/games/auth/token"
 
 const rpsapi = {
-  //Ska lägga till så att ett spel skapas och att det syns i listan. <3 Lätt som en plätt!?
+  //Ska lägga till så att ett spel skapas och att det syns i listan. <3 Lätt som en plätt!!?
   setToken: (token) => sessionStorage.setItem("token", token),
   getToken: () => {return sessionStorage.getItem("token");
     },
