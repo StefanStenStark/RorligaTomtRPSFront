@@ -32,7 +32,7 @@ function choiceTaker(player, opponent) {//where 0=rock, 1=paper, 2=scissors
     if (player === opponent) {
         message.innerText = "Draw";
     }
-    if ((player === "0" && opponent === "1") || (player === "1" && opponent === "2") || (player === "2" && opponent === "0")) {
+    else if ((player === "0" && opponent === "1") || (player === "1" && opponent === "2") || (player === "2" && opponent === "0")) {
         message.innerText = "You Lose";
 
     }
