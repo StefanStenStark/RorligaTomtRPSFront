@@ -1,0 +1,93 @@
+
+.container{
+    max-width: 690px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  
+  
+  .item{
+    color: black;
+    font-size: 1.69rem;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #borderForItem{
+    border: #555555 solid 1px;
+  }
+  
+  #refreshB{
+    max-width: 50px;
+    max-height: 50px;
+  
+  }
+  div{
+    text-align: center;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100vh;
+    display: grid;
+  
+    grid-template-areas:
+    'header header header'
+    'nav main aside'
+    'footer footer footer';
+  
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 69px 1fr 69px;
+  }
+  
+  header,
+  nav,
+  main,
+  aside,
+  footer{
+    color: #4c9d72;
+    border: black solid 1px;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  
+  
+  
+  input{
+    height: 45px;
+    width: 370px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .customButton{
+    letter-spacing: 1px;
+    background-color: #b0aa8a;
+    color: #230f2d;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+  
+  
+  }
+  .customButton:hover{
+   transition: 0.3s ease-in-out;
+    background-color: #f3eac7;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 0 0 10px #2d8aa6;
+  }
+  
+  
+  
+  
+  
+  
+  

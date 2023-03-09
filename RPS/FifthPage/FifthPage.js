@@ -7,10 +7,8 @@ paperButton.addEventListener('click', function () { choiceTaker(1) })
 const scissorsButton = document.getElementById("scissors")
 scissorsButton.addEventListener('click', function () { choiceTaker(2) })
 
-
 function choiceTaker(userInput) {
     let aiChoice = Math.floor(Math.random() * 3);
-
 
     let url = "../SixthPage/SixthPage.html"
         + "?_ijt=rmgf90662bv8lfqsd2r74lb2uc"
@@ -19,6 +17,4 @@ function choiceTaker(userInput) {
         + "&opponent=" + aiChoice;
 
     window.location.href = url;
-
-
 }

@@ -37,7 +37,7 @@ function choiceTaker(player, opponent) {//where 0=rock, 1=paper, 2=scissors
 
     }
     else {
-    message.innerText = "You win";
+        message.innerText = "You win";
 
     }
 
