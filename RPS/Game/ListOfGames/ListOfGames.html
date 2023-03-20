@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible">
   <title>JoinGame</title>
 
   <link rel="stylesheet" href="ListOfGames.css">
-  <script src="ListOfGames.js" defer></script>
+  <link rel="stylesheet" href="../../TemplatePage.css">
+
 </head>
 
 <body>
@@ -19,21 +21,20 @@
   <nav></nav>
 
   <main>
-    <div class="container">
-      <div>
-        <a href="ListOfGames.html"> <img id="refreshB" src="refreshing.png"> </a>
-      </div>
-      <div class="item">Kristinas spel</div>
-      <div class="item">Kalles spel</div>
-      <div class="item">Fredriks klura sten</div>
-      <div class="item">Saras sax slungare</div>
-      <div class="item">Peters pappers palm</div>
+    <div>
+      <a href="ListOfGames.html"> <img id="refreshB" src="refreshing.png"> </a>
+    </div>
+
+    <div class="container" id="gameList">
+      
     </div>
   </main>
 
   <aside></aside>
 
   <footer></footer>
-
+  <script src="ListOfGames.js" defer></script>
+  <!-- moved to the end of the page so therequest is not gonna be executed faster than div is being created-->
 </body>
+
 </html>

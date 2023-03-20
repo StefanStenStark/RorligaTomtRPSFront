@@ -19,7 +19,7 @@ const rpsapi = {
   },
   //Skapar en spelare
   newToken: () => {
-    fetch(url)//await makes this fetch return object, not promise in other words it resolves the promise
+    fetch(backendUrl)//await makes this fetch return object, not promise in other words it resolves the promise
       .then(response => response.json())
       .then(token => {
         console.log(token)

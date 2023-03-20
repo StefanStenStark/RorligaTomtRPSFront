@@ -1,0 +1,11 @@
+
+.container{
+    max-width: 690px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .waiting{
+  align-content: center;
+  }
