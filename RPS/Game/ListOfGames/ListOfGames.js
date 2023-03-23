@@ -9,7 +9,6 @@ function listGames() {
     fetch(backendUrl + "/games",
         {
             method: 'GET',//method Get, no headers in this case, no body
-
         })
         .then(response => response.json())
         .then(listOfGames => {
@@ -27,8 +26,6 @@ function listGames() {
                 }
             )
         })
-
-
 }
 
 function joinGame(gameId) {
