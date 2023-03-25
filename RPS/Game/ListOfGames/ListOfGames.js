@@ -15,14 +15,14 @@ function listGames() {
             listOfGames.forEach(
                 game => {
                     var element = document.createElement("div");//create element of type div
-                    element.className = "item";//give it class                   
+                    element.className = "item";//give it class
                     element.innerHTML = game.name;//apply name of the game on it
                     element.addEventListener('click', function (event) { //adds listener to it and redirects on click
                         joinGame(game.id);//used ln 34
                         window.location.href = "../SelectFigure/SelectFigure.html?gameId=" + game.id;
                     });
 
-                    gameListElement.appendChild(element);//add it to big div                  
+                    gameListElement.appendChild(element);//add it to big div
                 }
             )
         })

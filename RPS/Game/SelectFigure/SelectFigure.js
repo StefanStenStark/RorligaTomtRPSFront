@@ -52,6 +52,8 @@ function userPath(userInput) {
                 'token': sessionStorage.getItem('token'),
             },
         })
+        console.log("HejHej!!")
         window.location.href = "../WaitingPage/WaitingPage.html?gameId="+gameId;
+
 }
 
