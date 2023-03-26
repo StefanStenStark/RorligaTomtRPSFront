@@ -29,11 +29,11 @@ footer{
 
 header{
   grid-area: header;
-  background-color: #a767ff;
+  background-color: #d5c3f5;
 }
 nav{
   grid-area: nav;
-  background-color: #ea7186;
+  background-color: #d5c3f5;
 }
 main{
   grid-area: main;
@@ -41,9 +41,14 @@ main{
 }
 aside{
   grid-area: aside;
-  background-color: #f2c86e;
+  background-color: #d5c3f5;
 }
 footer{
   grid-area: footer;
-  background-color: #a767ff;
+  background-color: #d5c3f5;
 }
+
+div{
+  text-align: center;
+}
+

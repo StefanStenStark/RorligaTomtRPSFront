@@ -16,24 +16,20 @@ function gameInfo() {
         .then(response => response.json())
         .then(game => {
           if (game.move !== null){
-            console.log("INFONFONFINFINFNI")
-            console.log(game)
-            console.log(game.move)
-            console.log(game.opponentMove)
-
             if (game.opponentMove !== null){
               let player = game.move
               let opponent = game.opponentMove
               if (player === opponent) {
-                console.log("Draw")
+                deleteGame(gameId)
+                window.location.href = "../ResultPvP/Draw.html"
               }
               else if ((player === "ROCK" && opponent === "PAPER") || (player === "PAPER" && opponent === "SCISSORS") || (player === "SCISSORS" && opponent === "ROCK")) {
-                console.log("You lose")
-
+                deleteGame(gameId)
+                window.location.href = "../ResultPvP/Lose.html"
               }
               else {
-                console.log("You win!")
-
+                deleteGame(gameId)
+                window.location.href = "../ResultPvP/Win.html"
               }
             }
           }else if (game.opponentName !== null) {
@@ -44,4 +40,12 @@ function gameInfo() {
 
 
         })
+}
+
+function deleteGame(gameId) {
+  fetch(backendUrl + "/games/delete/" + gameId,
+    {
+      method: 'DELETE'
+    })
+
 }

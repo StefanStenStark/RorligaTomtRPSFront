@@ -1,0 +1,56 @@
+
+.container{
+  max-width: 690px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+.item{
+  color: black;
+  font-size: 1.69rem;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#refreshB{
+  max-width: 50px;
+  max-height: 50px;
+
+}
+div{
+  text-align: center;
+}
+
+.images{
+  max-width: 100px; /*width of your image*/
+  height:100px; /*height of your image*/
+  /*background-image:url('yourimage.file');*/
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+.buttons{
+  cursor:pointer;
+  width: 300px;
+  color: purple;
+  font-size: 1.69 rem;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+
+}
+.buttons img{
+  width: 50px;
+  height:50px;
+  padding: 3px;
+
+}
+.buttons:hover
+{
+  background-color: #ea7186;
+  color: black;
+  box-shadow: 5,5,0,5,rgb(143, 49, 49);
+}
