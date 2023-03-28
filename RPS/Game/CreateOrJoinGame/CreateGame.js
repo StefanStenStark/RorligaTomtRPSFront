@@ -12,7 +12,10 @@ function createGame() {
                 
         .then(game=>game.id)
         .then(gameId =>window.location.href = "../WaitingPage/WaitingPage.html?gameId=" + gameId) 
-              
-     
+  
+}
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,7 @@ body{
 
   grid-template-areas:
   'header header header'
-  'nav main aside'
+  'nav main main'
   'footer footer footer';
 
   grid-template-columns: 1fr 3fr 1fr;
@@ -17,38 +17,126 @@ body{
 }
 
 header,
-nav,
-main,
-aside,
-footer{
-  color: #4c9d72;
-  border: black solid 1px;
+nav
+{
+  color: #ffffff;
+  border-: #ffe554 solid 10px;
   font-size: 1.2rem;
-  /*padding: 20px;*/
+  padding: 20px;
 }
 
 header{
+  border-top: #ffe554 solid 20px;
   grid-area: header;
-  background-color: #d5c3f5;
+  background-color: rgba(9, 2, 51, 0.89);
 }
 nav{
+  border-right: #ffe554 solid 20px;
+  border-bottom: #ffe554 solid 20px;
   grid-area: nav;
-  background-color: #d5c3f5;
+  background-color: rgba(9, 2, 51, 0.89);
 }
 main{
+  border-top: #ffe554 solid 20px;
   grid-area: main;
-  background-color: #fefced;
+  background-color: rgba(9, 2, 51, 0.89);
+
 }
-aside{
-  grid-area: aside;
-  background-color: #d5c3f5;
-}
+
 footer{
   grid-area: footer;
-  background-color: #d5c3f5;
+  background-color: rgba(9, 2, 51, 0.89);
 }
 
-div{
+#refreshB{
+  max-width: 50px;
+  max-height: 50px;
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h2{
+  color: white;
+  margin: 20px;
+  scale: 1.6;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h3{
+  color: white;
+  margin: 20px 0px 20px 0px;
+  scale: 2;
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+  width: 100px;
+  margin: 100px;
+  scale: 1.6;
+  font-family: 'DM Sans', sans-serif;
+  background-color: rgba(20, 99, 112, 0.62);
+  color: #ffffff;
+  border: #555555 solid 1px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: 0.2s;
+  background-color: #14e8ae;
+  border: 1px solid black;
+  color: black;
+  box-shadow: 0 0 10px #2d8aa6;
+}
+
+img {
   text-align: center;
+  margin: 10px 10px;
+  border-spacing: 10px;
 }
 
+.popup .popuptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 6px;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .show {
+  visibility: visible;
+
+}
+/*this will be applied when you shrink the screen to 1000px or smaller*/
+@media screen and (max-width: 2000px) {
+  /*this will be applied when you shrink the screen to 1000px or smaller*/
+  .flexbox-container{
+    /*converts the images to portrait*/
+    /*this one needs display:flex to work which exist in flexbox-container*/
+    flex-direction: column;
+    margin: 10px;
+    /*this one needs display:flex to work which exist in flexbox-container*/
+    align-items: center;
+  }
+  h2{
+    /*scale: 1.2;*/
+    font-family: 'DM Sans', sans-serif;
+  }
+  h3{
+    /*scale: 1.2;*/
+    font-family: 'DM Sans', sans-serif;
+  }
+}

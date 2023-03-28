@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../../TemplatePage.css">
   <link rel="stylesheet" href="SelectFigure.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-  <script src="SelectFigure.js" defer></script>
   <title>SelectPicture</title>
 </head>
 
 <body>
-  <header></header>
-  <nav><img class="decoration" src="decoration.png" alt="bild på blomma"></nav>
-  <main>
-    <div style="text-align: center;">
-      <h1>Select a figure </h1>
+<header></header>
+<nav>
+  <h2 style="margin-left: 50%",>Menu</h2>
+  <div>
+    <a href="../CreateOrJoinGame/CreateOrJoinGame.html?_ijt=baclgj6pep3lc87gbpvj8icsmb&_ij_reload=RELOAD_ON_SAVE">
+      <button>Create Game</button>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="../ListOfGames/ListOfGames.html?_ijt=ccq05rskcbh6311d9vpdbas0nt&_ij_reload=RELOAD_ON_SAVE">
+      <button>Join Game</button>
+    </a>
+  </div>
+  <br>
+  <div class="popup" onclick="myFunction()">
+    <button>Rules
+      <span class="popuptext" id="myPopup">The rock is a closed fist;
+      paper is a flat hand with fingers and thumb extended and the palm facing upward;
+      and scissors is a fist with the index and middle fingers fully extended toward the opposing player.
+      Rock wins against scissors; paper wins against rock; and scissors wins against paper.
+    </span>
+    </button>
+  </div>
+</nav>
+<main>
+  <div style="text-align: center;">
+    <h1>Select a figure </h1>
+  </div>
+  <div class="flexbox-container">
+    <div class="flex-item rock">
+      <!--link to page six if you click on the ROCK-->
+      <img src="img/rock.png" id="rock" alt="Bild på sten">
     </div>
-    <div class="flexbox-container">
-      <div class="flex-item rock">
-        <!--link to page six if you click on the ROCK-->
-        <img src="img/Rock.png" id="rock" alt="Bild på sten" height="70%" width="90%">
-      </div>
 
-      <div class="flex-item paper">
-        <!--link to page six if you click on the PAPER-->
-        <img src="img/Paper.png" id="paper" alt="Bild på papper" height="70%" width="90%">
-      </div>
-
-      <div class="flex-item scissors">
-        <!--link to page six if you click on the Scissors-->
-        <img src="img/Scissors.png" id="scissors" alt="Bild på sax" height="70%" width="90%">
-      </div>
+    <div class="flex-item paper">
+      <!--link to page six if you click on the PAPER-->
+      <img src="img/paper.png" id="paper" alt="Bild på papper">
     </div>
-  </main>
-  <aside><img class="decoration" src="decoration.png" alt="bild på blomma">Aside</aside>
-  <footer></footer>
+
+    <div class="flex-item scissors">
+      <!--link to page six if you click on the Scissors-->
+      <img src="img/scissors.png" id="scissors" alt="Bild på sax">
+    </div>
+  </div>
+</main>
+<footer></footer>
 
 </body>
 
+<script src="SelectFigure.js"></script>
 </html>

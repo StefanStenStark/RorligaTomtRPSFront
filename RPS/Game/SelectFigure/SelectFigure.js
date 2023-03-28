@@ -54,6 +54,10 @@ function userPath(userInput) {
         })
         console.log("HejHej!!")
         window.location.href = "../WaitingPage/WaitingPage.html?gameId="+gameId;
+}
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }
 

@@ -42,3 +42,8 @@ function choiceTaker(player, opponent) {//where 0=rock, 1=paper, 2=scissors
     }
 
 }
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}

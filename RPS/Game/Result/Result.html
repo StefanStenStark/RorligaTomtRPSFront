@@ -5,42 +5,62 @@
   <link rel="stylesheet" href="Result.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="../../TemplatePage.css">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-  <script src="Result.js"></script>
+  <link rel="stylesheet" href="../../TemplatePage.css">
   <title>TheResult</title>
 </head>
 
 <body>
-<header>Header</header>
-<nav>Nav
-
+<header>
+</header>
+<nav>
+  <h2 style="margin-left: 50%",>Menu</h2>
+  <div>
+    <a href="../CreateOrJoinGame/CreateOrJoinGame.html?_ijt=baclgj6pep3lc87gbpvj8icsmb&_ij_reload=RELOAD_ON_SAVE">
+      <button>Create Game</button>
+    </a>
+  </div>
+  <br>
+  <div>
+    <a href="../ListOfGames/ListOfGames.html?_ijt=ccq05rskcbh6311d9vpdbas0nt&_ij_reload=RELOAD_ON_SAVE">
+      <button>Join Game</button>
+    </a>
+  </div>
+  <br>
+  <div class="popup" onclick="myFunction()">
+    <button>Rules
+      <span class="popuptext" id="myPopup">The rock is a closed fist;
+      paper is a flat hand with fingers and thumb extended and the palm facing upward;
+      and scissors is a fist with the index and middle fingers fully extended toward the opposing player.
+      Rock wins against scissors; paper wins against rock; and scissors wins against paper.
+    </span>
+    </button>
+  </div>
 </nav>
 <main>
-<div class="flexbox-container">
-  <div class="flex-item scissors">
-    <h2>You played</h2>
-    <!--link to page six if you click on the Scissors-->
-      <img src="img/Scissors.png" id="playerImage" alt="Bild på sax" height="80%" width="50%">
+  <div class="flexbox-container">
+    <div class="flex-item scissors">
+      <h2>You played</h2>
+      <!--link to page six if you click on the Scissors-->
+      <img src="../Result/img/Scissors.png" id="playerImage" alt="Bild på sax">
+    </div>
+    <div class="flex-item rock">
+      <h2>Your opponent played</h2>
+      <!--link to page six if you click on the ROCK-->
+      <img src="../Result/img/Rock.png" id="opponentImage" alt="Bild på sten">
+    </div>
   </div>
-  <div class="flex-item rock">
-    <h2>Your opponent played</h2>
-    <!--link to page six if you click on the ROCK-->
-      <img src="img/Rock.png" id="opponentImage" alt="Bild på sten" height="80%" width="50%">
+  <div>
+    <h3 id="message"></h3>
   </div>
-</div>
-<div>
-  <h3 id="message"></h3>
-</div>
 
   <div>
     <a href="../SelectFigure/SelectFigure.html?_ijt=7ocnvlvosc87e6udut8cs9g0ne&_ij_reload=RELOAD_ON_SAVE">
-    <button>Play again?</button>
+      <button>Play again?</button>
     </a>
   </div>
 </main>
-<aside></aside>
 <footer></footer>
-
+<script src="Result.js" defer></script>
 </body>
 </html>
