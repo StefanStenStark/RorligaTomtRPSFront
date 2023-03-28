@@ -7,7 +7,6 @@
 
   <link rel="stylesheet" href="../../TemplatePage.css">
   <link rel="stylesheet" href="pvpResultPages.css">
-  <script src= defer></script>
 </head>
 
 
@@ -15,6 +14,10 @@
 <header></header>
 <nav>
   <h2 style="margin-left: 50%",>Menu</h2>
+  <div>
+    <button onclick="location.href = '../../Player/SetName/SetName.html'">Main Page</button>
+  </div>
+  <br>
   <div>
     <a href="../CreateOrJoinGame/CreateOrJoinGame.html?_ijt=baclgj6pep3lc87gbpvj8icsmb&_ij_reload=RELOAD_ON_SAVE">
       <button>Create Game</button>
@@ -27,6 +30,9 @@
     </a>
   </div>
   <br>
+  <div>
+    <button onclick="location.href = '../../Game/SelectFigure/SelectFigure.html'">Play with AI</button>
+  </div>
   <div class="popup" onclick="myFunction()">
     <button>Rules
       <span class="popuptext" id="myPopup">The rock is a closed fist;
@@ -50,4 +56,5 @@
 <footer></footer>
 </body>
 
+<script src="popup.js" defer></script>
 </html>

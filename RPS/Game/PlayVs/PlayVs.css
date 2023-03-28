@@ -4,13 +4,13 @@
   }
 
   .buttons{
-  cursor:pointer;
+    cursor:pointer;
     width: 300px;
-/*    color: purple;*/
-  font-size: 1.69 rem;
-  padding: 20px;
- text-align: center;
- border-radius: 30px;
+    font-size: 1.69 rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    /*color: purple;*/
 
  }
 

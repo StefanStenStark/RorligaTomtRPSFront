@@ -17,15 +17,16 @@
 }
 .item:hover
  {
- /*  background-color: #ea7186;
-   color: black;
-   box-shadow: 5,5,0,5,rgb(143, 49, 49);*/
   transition: 0.2s;
   background-color: #14e8ae;
   border: 1px solid black;
   color: black;
   box-shadow: 0 0 10px #2d8aa6;
+  /*background-color: #ea7186;*/
+  /*color: black;*/
+  /*box-shadow: 5,5,0,5,rgb(143, 49, 49);*/
  }
+
 
 div{
   text-align: center;

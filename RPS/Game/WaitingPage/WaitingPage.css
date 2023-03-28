@@ -1,17 +1,16 @@
 
 .container{
-    max-width: 690px;
-    margin: 100px auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    justify-items: center;
-    
-  }
-  .waiting{
+  margin: 100px auto;
+  display: grid;
+  justify-items: center;
+  /*max-width: 690px;*/
+  /*align-items: center;*/
+  /*  grid-template-columns: repeat(1, 1fr);*/
+}
+
+/*  .waiting{
   align-content: center;
   margin: auto;
-  }
+  }*/
 
 
- 

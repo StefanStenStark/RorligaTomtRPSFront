@@ -37,7 +37,6 @@ button:hover{
 
 .flexbox-container{
   display:flex;
-  /*how much space between there should be between*/
   margin: 100px;
 }
 
