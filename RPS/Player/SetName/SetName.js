@@ -43,8 +43,12 @@ async function postData(name) {
                 'token': token,
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ "name": name }), // object in parenthesis is turned into a Json string 
+            body: JSON.stringify({ "name": name }), // object in parenthesis is turned into a Json string
         });
 
 }
 
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}

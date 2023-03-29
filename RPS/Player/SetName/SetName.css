@@ -1,14 +1,14 @@
 
 .container{
-    max-width: 690px;
-    margin: 100px auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  margin: 100px auto;
+  /*    max-width: 690px;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(1, 1fr);*/
   }
 
   .item{
     color: #ece5e5;
-    font-size: 1.69rem;
+    font-size: 2.5rem;
     padding: 20px;
     text-align: center;
   }
@@ -17,21 +17,34 @@
     border: #555555 solid 1px;
   }
 
-  #refreshB{
+div{
+  text-align: center;
+}
+
+input{
+  height: 45px;
+  width: 370px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.popup{
+  margin-top: -22px;
+}
+
+/*  #refreshB{
     max-width: 50px;
     max-height: 50px;
 
-  }
-  div{
-    text-align: center;
-  }
+  }*/
 
-  *{
+/*  *{
     margin: 0;
     padding: 0;
-  }
+  }*/
 
-  body{
+/*  body{
     height: 100vh;
     display: grid;
 
@@ -42,14 +55,7 @@
 
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 69px 1fr 69px;
-  }
-
-input{
-  height: 45px;
-  width: 370px;
-  border-radius: 25px;
-  text-align: center;
-}
+  }*/
 
 
 

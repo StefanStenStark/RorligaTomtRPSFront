@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.headline {
+  text-align: center;
+  font-size: 30px;
+  margin: -10px 0px 0px 430px;
+}
+
 body{
   height: 100vh;
   display: grid;
@@ -86,7 +92,7 @@ h3{
 
 button {
   width: 100px;
-  margin: 60px;
+  margin: 40px;
   scale: 1.6;
   font-family: 'DM Sans', sans-serif;
   background-color: rgba(20, 99, 112, 0.62);
@@ -138,6 +144,10 @@ img {
     margin: 10px;
     /*this one needs display:flex to work which exist in flexbox-container*/
     align-items: center;
+  }
+  h1 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
   }
   h2{
     scale: 1.2;

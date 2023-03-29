@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.items{
+  font-size: 40px;
+  text-align: center;
+  border-radius: 30px;
+  size: 30px;
+}
 
 
 /*
@@ -32,17 +38,6 @@
     margin:0; !* If you want no margin *!
     padding:0; !*if your want to padding *!
  }
-
- .buttons{
-   width: 300px;
-   color: #ea7186;
-   cursor:pointer;
-
-  font-size: 15px;
-  padding: 20px;
- text-align: center;
- border-radius: 30px;
-}
 
 .buttons{
   color: purple;

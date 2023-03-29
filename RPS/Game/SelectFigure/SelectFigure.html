@@ -7,33 +7,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-  <title>SelectPicture</title>
+  <title>SelectFigure</title>
 </head>
 
 <body>
-<header></header>
+<header>
+  <div>
+    <p class="headline">ROCK-PAPER-SCISSORS</p>
+  </div>
+</header>
 <nav>
   <h2 style="margin-left: 50%",>Menu</h2>
-  <div>
+  <div style="text-align: center;">
     <button onclick="location.href = '../../Player/SetName/SetName.html'">Main Page</button>
   </div>
   <br>
-  <div>
+  <div style="text-align: center;">
     <a href="../CreateOrJoinGame/CreateOrJoinGame.html?_ijt=baclgj6pep3lc87gbpvj8icsmb&_ij_reload=RELOAD_ON_SAVE">
       <button>Create Game</button>
     </a>
   </div>
   <br>
-  <div>
+  <div style="text-align: center;">
     <a href="../ListOfGames/ListOfGames.html?_ijt=ccq05rskcbh6311d9vpdbas0nt&_ij_reload=RELOAD_ON_SAVE">
       <button>Join Game</button>
     </a>
   </div>
   <br>
-  <div>
+  <div style="text-align: center;">
     <button onclick="location.href = '../../Game/SelectFigure/SelectFigure.html'">Play with AI</button>
   </div>
-  <div class="popup" onclick="myFunction()">
+  <div class="popup" onclick="myFunction()" style="text-align: center;">
     <button>Rules
       <span class="popuptext" id="myPopup">The rock is a closed fist;
       paper is a flat hand with fingers and thumb extended and the palm facing upward;
